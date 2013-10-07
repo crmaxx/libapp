@@ -11,7 +11,7 @@ end
 group :test do
   gem 'cucumber-rails', '~> 1.3.0', require: false
   gem 'database_cleaner', '~> 0.9.1'
-  gem 'spork', '~> 0.9.2'
+  gem 'spork-rails', github: 'sporkrb/spork-rails'
 end
 
 group :assets do
