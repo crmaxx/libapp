@@ -6,6 +6,13 @@ GIT
       rails (>= 3.0.0, < 5)
       spork (>= 1.0rc0)
 
+GIT
+  remote: git@github.com:balexand/email_validator.git
+  revision: 9f0565c58cc3aa8bfc93703fda132cf62daf953b
+  specs:
+    email_validator (1.4.0)
+      activemodel
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -156,6 +163,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   cucumber-rails (~> 1.3.0)
   database_cleaner (~> 0.9.1)
+  email_validator!
   jquery-rails
   rails (= 3.2.14)
   rspec-rails (~> 2.12.2)

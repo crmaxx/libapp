@@ -23,4 +23,4 @@ end
 
 gem 'jquery-rails'
 gem 'strong_parameters'
-
+gem 'email_validator', git: 'git@github.com:balexand/email_validator.git'
