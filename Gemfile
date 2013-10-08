@@ -5,13 +5,14 @@ gem 'rails', '3.2.14'
 gem 'sqlite3'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 2.12.2'
+  gem 'rspec-rails'
 end
 
 group :test do
-  gem 'cucumber-rails', '~> 1.3.0', require: false
+  gem 'cucumber-rails', require: false
   gem 'database_cleaner', '~> 0.9.1'
   gem 'spork-rails', github: 'sporkrb/spork-rails'
+  gem 'shoulda-matchers'
 end
 
 group :assets do
